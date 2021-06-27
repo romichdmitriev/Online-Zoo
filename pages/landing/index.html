@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Zoo Online Landing</title>
+
+	<!-- Include Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@400;500&family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+	<!-- Include stylesheet -->
+	<link rel="stylesheet" href="../../style/normalize.css">
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<!--Header-->
+	<header class="header">
+		<div class="header__container centered-content-container">
+			<nav class="header__nav">
+				<a class="header__nav-item" href="../landing/index.html">About</a>
+				<a class="header__nav-item" href="../zoos-map/zoos-map.html">Map</a>
+				<a class="header__nav-item" href="../zoos/panda.html">Zoos</a>
+				<a class="header__nav-item" href="../404/404.html">Contact us</a>
+				<a class="header__nav-item" href="https://www.figma.com/file/74wXlorl9mZQP0uhqDg83j/Online-Zoo" target="_blank">Design</a>
+				<a class="header__nav-item" href="#">Profile</a>
+			</nav>
+
+			<a class="header__profile-icon" href="#">
+				<img class="header__profile-img" src="../../assets/icons/landing/profile.svg" alt="profile-icon">
+			</a>
+
+			<a class="header__menu-toggler" href="#">
+				<img src="../../assets/icons/landing/menu-toggler.svg" alt="profile-icon">
+			</a>
+		</div>
+	</header>
+
+	<main class="content">
+		<!--Sticky Sidebar-->
+		<div class='content__aside-wrapper'>
+			<div class='centered-content-container'>
+				<div class="content__aside-tunnel">
+					<aside class="sidebar">
+						<a class="sidebar__logo" href="index.html">
+							<img class="sidebar__logo-icon" src="../../assets/icons/landing/logo.svg" alt="logo">
+						</a>
+
+						<div class="sidebar__socials socials">
+							<a class="socials__item" href="https://www.instagram.com/" target="_blank">
+								<img class="socials__item-icon" src="../../assets/icons/landing/instagram.svg" alt="instagram-icon">
+							</a>
+							<a class="socials__item" href="https://web.facebook.com/" target="_blank">
+								<img class="socials__item-icon" src="../../assets/icons/landing/facebook.svg" alt="facebook-icon">
+							</a>
+							<a class="socials__item" href="https://twitter.com/" target="_blank">
+								<img class="socials__item-icon" src="../../assets/icons/landing/twitter.svg" alt="twitter-icon">
+							</a>
+						</div>
+
+						<a class="sidebar__arrow-circle" href="">
+							<img src="../../assets/icons/landing/arrow-black.svg" alt="arrow-icon">
+						</a>
+					</aside>
+				</div>
+			</div>
+		</div>
+
+		<!--Hero Section-->
+		<section class="hero centered-content-container">
+				<div id="watch" class="hero__block first-block">
+					<div class="first-block__content">
+						<h2 class="first-block__section-title section-title section-title--grey">Wild park</h2>
+
+						<h1 class="first-block__-title main-title">Watch your favorite animal onl<i class="main-title__red-circle">i</i>ne</h1>
+
+						<a class="first-block__btn btn" href="../zoos-map/zoos-map.html">Choose zoo</a>
+						<a class="first-block__btn btn" href="../zoos/panda.html">Watch online</a>
+					</div>
+
+					<img class="first-block__img-item" src="../../assets/images/landing/hero-panda.jpg" alt="panda-img">
+				</div>
+
+				<div id="works" class="hero__block second-block">
+					<img class="second-block__img-item" src="../../assets/images/landing/hero-lion.jpg" alt="lion-img">
+
+					<div class="second-block__content">
+						<h2 class="second-block__section-title section-title">How Zoo online Works</h2>
+
+						<h3 class="second-block__subtitle subtitle">Our service will give you an unforgettable experience of observing and interacting with animals remotely</h3>
+
+						<p class="second-block__text text">Zoo Online is a web application with which you can watch live cages of different animals in nature reserves and zoos online and, if you wish, donate to the needs of the animal you like</p>
+
+						<a class="btn btn--size" href="../zoos/panda.html">Try now</a>
+					</div>
+				</div>
+			</section>
+
+		<!--Famous Pets Section-->
+		<section id="pets" class="pets">
+				<div class="centered-content-container">
+					<div class="pets__container">
+						<!--Famous pets content with slider buttons-->
+						<div class="pets__content">
+							<h2 class="pets__section-title section-title section-title--font-size">
+								Famous pets
+							</h2>
+
+							<h3 class="pets__title subtitle">
+								You can choose any animal <br>you like
+							</h3>
+
+							<div class="pets__arrows">
+								<button class="pets__arrow-circle">
+									<img class="pets__arrow-img" src="../../assets/icons/landing/arrow-white.svg" alt="arrow">
+								</button>
+
+								<button class="pets__arrow-circle">
+									<img src="../../assets/icons/landing/arrow-white.svg" alt="arrow">
+								</button>
+							</div>
+						</div>
+
+						<!--Famous Pets slider-->
+						<div class="pets__slider slider">
+							<div class="slider__container">
+								<!-- Little panda card-->
+								<div class="slider__card">
+									<div class="slider-card__content">
+										<div class="slider-card__content-plus">
+											<img class="slider-card__plus-icon" src="../../assets/icons/landing/card-plus-hover.svg" alt="plus">
+
+											<!--Card description while hovering on card-->
+											<span class="slider__card-description">Chine, East Asia</span>
+										</div>
+
+										<div class="slider-card__content-text">
+											Little panda
+										</div>
+
+										<!--Card follow link while hovering on card-->
+										<a href="" class="slider-card__follow-link">
+											<span class="slider-card__follow-text">Follow</span>
+											<img src="../../assets/icons/landing/arrow-white.svg" alt="follow arrow" class="slider-card__follow-arrow">
+										</a>
+									</div>
+
+									<img class="slider-card__img" src="../../assets/images/landing/animal-card-1.jpg" alt="slider-img">
+
+									<div class="background-blur"></div>
+								</div>
+
+								<!--Penguin card-->
+								<div class="slider__card">
+									<div class="slider-card__content">
+										<div class="slider-card__content-plus">
+											<img class="slider-card__plus-icon" src="../../assets/icons/landing/card-plus-hover.svg" alt="plus">
+
+											<!--Card description while hovering on card-->
+											<span class="slider__card-description">American state
+												of Florida</span>
+										</div>
+
+										<div class="slider-card__content-text">
+											Penguin
+										</div>
+
+										<!--Card follow link while hovering on card-->
+										<a href="" class="slider-card__follow-link">
+											<span class="slider-card__follow-text">Follow</span>
+											<img src="../../assets/icons/landing/arrow-white.svg" alt="follow arrow" class="slider-card__follow-arrow">
+										</a>
+									</div>
+
+									<img class="slider-card__img" src="../../assets/images/landing/animal-card-2.jpg" alt="slider-img">
+
+									<div class="background-blur"></div>
+								</div>
+
+								<!--Squirrel card-->
+								<div class="slider__card">
+									<div class="slider-card__content">
+										<div class="slider-card__content-plus">
+											<img class="slider-card__plus-icon" src="../../assets/icons/landing/card-plus-hover.svg" alt="plus">
+
+											<!--Card description while hovering on card-->
+											<span class="slider__card-description">Russia, forests in the Orenburg region,</span>
+										</div>
+
+										<div class="slider-card__content-text">
+											Squirrel
+										</div>
+
+										<!--Card follow link while hovering on card-->
+										<a href="" class="slider-card__follow-link">
+											<span class="slider-card__follow-text">Follow</span>
+											<img src="../../assets/icons/landing/arrow-white.svg" alt="follow arrow" class="slider-card__follow-arrow">
+										</a>
+									</div>
+
+									<img class="slider-card__img" src="../../assets/images/landing/animal-card-3.jpg" alt="slider-img">
+
+									<div class="background-blur"></div>
+								</div>
+
+								<!--Tiger card-->
+								<div class="slider__card">
+									<div class="slider-card__content">
+										<div class="slider-card__content-plus">
+											<img class="slider-card__plus-icon" src="../../assets/icons/landing/card-plus-hover.svg" alt="plus">
+
+											<!--Card description while hovering on card-->
+											<span class="slider__card-description">Russia, Amur region</span>
+										</div>
+
+										<div class="slider-card__content-text">
+											Tiger
+										</div>
+
+										<!--Card follow link while hovering on card-->
+										<a href="" class="slider-card__follow-link">
+											<span class="slider-card__follow-text">Follow</span>
+											<img src="../../assets/icons/landing/arrow-white.svg" alt="follow arrow" class="slider-card__follow-arrow">
+										</a>
+									</div>
+
+									<img class="slider-card__img" src="../../assets/images/landing/animal-card-5.jpg" alt="slider-img">
+
+									<div class="background-blur"></div>
+								</div>
+
+								<!--Squirrel card-->
+								<div class="slider__card">
+									<div class="slider-card__content">
+										<div class="slider-card__content-plus">
+											<img class="slider-card__plus-icon" src="../../assets/icons/landing/card-plus-hover.svg" alt="plus">
+
+											<!--Card description while hovering on card-->
+											<span class="slider__card-description">Russia, forests in the Orenburg region,</span>
+										</div>
+
+										<div class="slider-card__content-text">
+											Squirrel
+										</div>
+
+										<!--Card follow link while hovering on card-->
+										<a href="" class="slider-card__follow-link">
+											<span class="slider-card__follow-text">Follow</span>
+											<img src="../../assets/icons/landing/arrow-white.svg" alt="follow arrow" class="slider-card__follow-arrow">
+										</a>
+									</div>
+
+									<img class="slider-card__img" src="../../assets/images/landing/animal-card-3.jpg" alt="slider-img">
+
+									<div class="background-blur"></div>
+								</div>
+
+								<!--Panda card-->
+								<div class="slider__card">
+									<div class="slider-card__content">
+										<div class="slider-card__content-plus">
+											<img class="slider-card__plus-icon" src="../../assets/icons/landing/card-plus-hover.svg" alt="plus">
+
+											<!--Card description while hovering on card-->
+											<span class="slider__card-description">Western central China</span>
+										</div>
+
+										<div class="slider-card__content-text">
+											Panda
+										</div>
+
+										<!--Card follow link while hovering on card-->
+										<a href="" class="slider-card__follow-link">
+											<span class="slider-card__follow-text">Follow</span>
+											<img src="../../assets/icons/landing/arrow-white.svg" alt="follow arrow" class="slider-card__follow-arrow">
+										</a>
+									</div>
+
+									<img class="slider-card__img" src="../../assets/images/landing/animal-card-6.jpg" alt="slider-img">
+
+									<div class="background-blur"></div>
+								</div>
+
+								<!--Eagle card-->
+								<div class="slider__card">
+									<div class="slider-card__content">
+										<div class="slider-card__content-plus">
+											<img class="slider-card__plus-icon" src="../../assets/icons/landing/card-plus-hover.svg" alt="plus">
+
+											<!--Card description while hovering on card-->
+											<span class="slider__card-description">North America, islands near Los Angeles</span>
+										</div>
+
+										<div class="slider-card__content-text">
+											Eagle
+										</div>
+
+										<!--Card follow link while hovering on card-->
+										<a href="" class="slider-card__follow-link">
+											<span class="slider-card__follow-text">Follow</span>
+											<img src="../../assets/icons/landing/arrow-white.svg" alt="follow arrow" class="slider-card__follow-arrow">
+										</a>
+									</div>
+
+									<img class="slider-card__img" src="../../assets/images/landing/animal-card-7.jpg" alt="slider-img">
+
+									<div class="background-blur"></div>
+								</div>
+
+								<!--Gorilla card-->
+								<div class="slider__card">
+									<div class="slider-card__content">
+										<div class="slider-card__content-plus">
+											<img class="slider-card__plus-icon" src="../../assets/icons/landing/card-plus-hover.svg" alt="plus">
+
+											<!--Card description while hovering on card-->
+											<span class="slider__card-description">Equatorial forests of western and central Africa</span>
+										</div>
+
+										<div class="slider-card__content-text">
+											Gorilla
+										</div>
+
+										<!--Card follow link while hovering on card-->
+										<a href="" class="slider-card__follow-link">
+											<span class="slider-card__follow-text">Follow</span>
+											<img src="../../assets/icons/landing/arrow-white.svg" alt="follow arrow" class="slider-card__follow-arrow">
+										</a>
+									</div>
+
+									<img class="slider-card__img" src="../../assets/images/landing/animal-card-8.jpg" alt="slider-img">
+
+									<div class="background-blur"></div>
+								</div>
+
+								<!--Alligator card-->
+								<div class="slider__card">
+									<div class="slider-card__content">
+										<div class="slider-card__content-plus">
+											<img class="slider-card__plus-icon" src="../../assets/icons/landing/card-plus-hover.svg" alt="plus">
+
+											<!--Card description while hovering on card-->
+											<span class="slider__card-description">American state of Florida</span>
+										</div>
+
+										<div class="slider-card__content-text">
+											Alligator
+										</div>
+
+										<!--Card follow link while hovering on card-->
+										<a href="" class="slider-card__follow-link">
+											<span class="slider-card__follow-text">Follow</span>
+											<img src="../../assets/icons/landing/arrow-white.svg" alt="follow arrow" class="slider-card__follow-arrow">
+										</a>
+									</div>
+
+									<img class="slider-card__img" src="../../assets/images/landing/animal-card-9.jpg" alt="slider-img">
+
+									<div class="background-blur"></div>
+								</div>
+
+								<!--Alligator card-->
+								<div class="slider__card">
+									<div class="slider-card__content">
+										<div class="slider-card__content-plus">
+											<img class="slider-card__plus-icon" src="../../assets/icons/landing/card-plus-hover.svg" alt="plus">
+
+											<!--Card description while hovering on card-->
+											<span class="slider__card-description">American state of Florida</span>
+										</div>
+
+										<div class="slider-card__content-text">
+											Alligator
+										</div>
+
+										<!--Card follow link while hovering on card-->
+										<a href="" class="slider-card__follow-link">
+											<span class="slider-card__follow-text">Follow</span>
+											<img src="../../assets/icons/landing/arrow-white.svg" alt="follow arrow" class="slider-card__follow-arrow">
+										</a>
+									</div>
+
+									<img class="slider-card__img" src="../../assets/images/landing/animal-card-9.jpg" alt="slider-img">
+
+									<div class="background-blur"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!--Pay and feed block-->
+		<section id="pay" class="pay-feed">
+				<h2 class="pay-feed__section-title section-title section-title--font-size">
+					Pay & feed
+				</h2>
+
+				<!--Pay and feed items-->
+				<div class="pay-feed__items-container">
+					<div class="pay-feed__item">
+						<img class="pay-feed__img" src="../../assets/images/landing/security.jpg" alt="security-case">
+						<div class="pay-feed__text-container">
+							<h3 class="pay-feed__subtitle subtitle subtitle--blue">Pay with VISA card</h3>
+
+							<p class="pay-feed__text text pay-feed__text--width">
+								On the payment page, you need to enter the details of your "Visa" card and make a transfer. The operation will not take more than ~2 minutes.
+							</p>
+						</div>
+
+						<img class="pay-feed__first-arrow" src="../../assets/images/landing/arrow-first.jpg" alt="">
+					</div>
+
+					<div class="pay-feed__item">
+						<img class="pay-feed__img" src="../../assets/images/landing/delivery.jpg" alt="delivery-ball">
+						<div class="pay-feed__text-container pay-feed__text-container--second-ptop">
+							<h3 class="pay-feed__subtitle subtitle subtitle--blue">Payment goes to the zoo</h3>
+
+							<p class="pay-feed__text text">
+								Payment goes to the account of the zoo and volunteers with employees receive a notification about the donation.
+							</p>
+						</div>
+
+						<img class="pay-feed__second-arrow" src="../../assets/images/landing/arrow-second.jpg" alt="">
+					</div>
+
+					<div class="pay-feed__item">
+						<img class="pay-feed__img" src="../../assets/images/landing/animals.jpg" alt="animals-feed">
+						<div class="pay-feed__text-container pay-feed__text-container--third-ptop">
+							<h3 class="pay-feed__subtitle subtitle pay-feed__subtitle--max-width subtitle--blue">The selected animal receives a treat</h3>
+
+							<p class="pay-feed__text text">
+								The staff takes the food you need for your chosen animal and delivers it to the animal. With your help, the animal is happy!
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!--Testimonials block-->
+		<section id="testimonials-section" class="testimonials">
+				<div class="centered-content-container">
+					<div class="testimonials__container">
+						<div class="testimonials__text-container">
+							<h2 class="testimonials__section-title section-title section-title--white">
+								Testimonials
+							</h2>
+
+							<h3 class="testimonials__title subtitle subtitle--white">You can make us smile</h3>
+
+							<p class="testimonials__text text text--white">
+								We want to make animal observation and interaction accessible. You can leave your wishes on how to make the service more convenient, and most importantly, more interesting for you.
+							</p>
+
+							<button class="btn btn--border-white btn--size">
+								Leave Feedback
+							</button>
+						</div>
+
+						<div class="testimonials__review">
+							<a href="" class="testimonials__review-more">
+								<p class="testimonials__review-more-text text text--white">See more reviews</p>
+								<img class="testimonials__review-arrow" src="../../assets/icons/landing/arrow-white.svg" alt="arrow">
+							</a>
+
+							<div class="testimonials__review-slider review-slider">
+								<div class="review-slider__item">
+									<div class="review-slider__item-avatar">
+										<img src="../../assets/images/landing/review-avatar-1.jpg" alt="avatar">
+										<p class="review-slider__item-name">
+											Alena Andreeva
+										</p>
+									</div>
+
+									<p class="review-slider__item-text">
+										“Had a great time with my kids and made the cute pandas happy with delicious treats. I think I will use your service more than once, thanks!”
+									</p>
+								</div>
+
+								<div class="review-slider__item">
+									<div class="review-slider__item-avatar">
+										<img src="../../assets/images/landing/review-avatar-2.jpg" alt="avatar">
+										<p class="review-slider__item-name">
+											Joe Brown
+										</p>
+									</div>
+
+									<p class="review-slider__item-text">
+										“Thank you for the cool service, I turn on broadcasts with animals while working in the background, it relaxes and cheers up”
+									</p>
+								</div>
+							</div>
+
+							<div class="testimonials__btn-container">
+								<button class="testimonials__arrow-circle">
+									<img class="testimonials__arrow-img" src="../../assets/icons/landing/arrow-black.svg" alt="arrow">
+								</button>
+
+								<button class="testimonials__arrow-circle">
+									<img src="../../assets/icons/landing/arrow-black.svg" alt="arrow">
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!--Zoogeography-->
+		<div id="zoogeography" class="zoo-geography">
+				<div class="centered-content-container">
+					<div class="zoo-geography__container">
+						<div class="zoo-geography__text">
+							<h2 class="zoo-geography__subtitle section-title section-title--font-size">Zoogeography</h2>
+
+							<div class="zoo-geography__block">
+								<img class="zoo-geography__block-img" src="../../assets/images/landing/zoogeography_eagle.jpg" alt="eagle">
+								<h3 class="zoo-geography__block-title subtitle">Eagle</h3>
+
+								<p class="zoo-geography__block-text text">
+									The broadcast is from an island near Los Angeles. Watch their real life.
+								</p>
+
+								<a href="../zoos/eagle.html" class="zoo-geography__block-watch">
+									<p class="zoo-geography__watch-text text text--blue">Watch now</p>
+									<img class="zoo-geography__block-arrow" src="../../assets/icons/landing/arrow-blue.svg" alt="arrow">
+								</a>
+							</div>
+						</div>
+
+						<div class="zoo-geography__map">
+							<img class="zoo-geography__map-img" src="../../assets/images/landing/world-map.jpg" alt="world-map">
+
+							<a class="zoo-geography__map-icon zoo-geography__map-icon--eagle">
+								<object class="zoo-geography__market-box" type="image/svg+xml" data="../../assets/icons/landing/zoogeography_eagle-marker.svg" width="69" height="89">
+									Your browser does not support SVG
+								</object>
+							</a>
+
+							<a class="zoo-geography__map-icon">
+								<object class="zoo-geography__market-box" type="image/svg+xml" data="../../assets/icons/landing/zoogeography_alligator-marker.svg" width="69" height="89">
+									Your browser does not support SVG
+								</object>
+							</a>
+
+							<a class="zoo-geography__map-icon">
+								<object class="zoo-geography__market-box" type="image/svg+xml" data="../../assets/icons/landing/zoogeography_gorilla-marker.svg" width="69" height="89">
+									Your browser does not support SVG
+								</object>
+							</a>
+
+							<a class="zoo-geography__map-icon">
+								<object class="zoo-geography__market-box" type="image/svg+xml" data="../../assets/icons/landing/zoogeography_panda-marker.svg" width="69" height="89">
+									Your browser does not support SVG
+								</object>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+	</main>
+
+	<!--Footer-->
+	<footer class="footer">
+		<div class="centered-content-container">
+			<section class="footer__section">
+				<div class="footer__icons">
+					<a href="index.html">
+						<img class="footer__icons-logo" src="../../assets/icons/landing/logo-big.svg" alt="footer-logo">
+					</a>
+
+					<div class="footer__icons-container">
+						<img class="footer__icons-item" src="../../assets/icons/landing/footer_yem_digital.svg" alt="rs-school-logo" title="Yem Digital">
+						<img class="footer__icons-item" src="../../assets/icons/landing/footer_x.svg" alt="rs-school-logo">
+						<img class="footer__icons-item" src="../../assets/icons/landing/footer_rs_school.svg" alt="rs-school-logo" title="Rolling Scopes School">
+					</div>
+				</div>
+
+				<div class="footer__nav footer-nav">
+					<h2 class="footer__nav-item section-title section-title--white">Navigation
+					</h2>
+
+					<a class="footer__nav-item" href="#watch">Watch online</a>
+
+					<a class="footer__nav-item" href="#works">How it works</a>
+
+					<a class="footer__nav-item" href="#pets">Famous pets</a>
+
+					<a class="footer__nav-item" href="#pay">Pay & feed</a>
+
+					<a class="footer__nav-item" href="#testimonials-section">Testimonials</a>
+
+					<a class="footer__nav-item" href="#zoogeography">Zoogeography</a>
+				</div>
+
+				<div class="footer__support">
+					<h2 class="footer__support-subtitle section-title section-title--white">Support of volunteers</h2>
+
+					<p class="footer__support-text text text--whitegray">You can thank the volunteers for their work. For example, caring for animals and sincere love for them.</p>
+
+					<a class="footer__support-btn btn btn--border-white" href="">Donate for volunteers</a>
+
+					<div class="footer__socials">
+						<a href="https://www.instagram.com/" target="_blank" class="footer__socials-item">Instagram</a>
+						<a href="https://www.facebook.com/" target="_blank" class="footer__socials-item">Facebook</a>
+						<a href="https://www.twitter.com/" target="_blank" class="footer__socials-item">Twitter</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="footer__section">
+				<p class="footer__copyright footer-text">
+					Copyright ©RSSchool and ©Yem Digital 2020 - 2021
+				</p>
+
+				<p class="footer__designer footer-text">
+					Designed by Vladislav Chernov
+				</p>
+			</section>
+		</div>
+	</footer>
+</body>
+</html>
