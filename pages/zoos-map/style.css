@@ -1,0 +1,258 @@
+/*Basic styles*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 400 18px 'Rubik', sans-serif;
+  overflow-x: hidden;
+  background: url('../../assets/images/zoos-map/map.jpg') no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: #080029;
+  font: 400 18px 'Rubik', sans-serif;
+}
+
+/*Function style*/
+.centered-content-container {
+  width: 1800px;
+  margin: 0 auto;
+}
+
+.sticky-container {
+  display: flex;
+}
+
+/*--Header--*/
+.header {
+  position: relative;
+  z-index: 2;
+  padding: 25px 0;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  border: 2px solid #f0f0f0;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  width: 800px;
+  justify-content: space-between;
+  margin-left: 184px;
+}
+
+.header__nav-item {
+  line-height: 1.54;
+}
+
+.header__nav-item:nth-child(2) {
+  font-weight: 500;
+  pointer-events: none;
+}
+
+.header__profile-icon {
+  width: 52px;
+  height: 52px;
+  margin-right: 92px;
+}
+
+/*Sidebar*/
+.sidebar {
+  position: sticky;
+  top: 25px;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90px;
+  margin-top: -115px;
+  padding-top: 25px;
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 2px solid #f0f0f0;
+}
+
+.sidebar__logo {
+  margin-bottom: 16px;
+}
+
+.sidebar__arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 86px;
+  box-sizing: border-box;
+}
+
+.sidebar__arrow--border-top {
+  border-top: 2px solid #f0f0f0;
+}
+
+.sidebar__arrow--rotate {
+  transform: rotate(180deg);
+}
+
+.sidebar__animals {
+  margin: 29px 0 31px;
+}
+
+.animals {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 436px;
+}
+
+.animals__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 2px solid #d9e8ff;
+}
+
+.animals__item + .animals__item {
+  margin-top: 40px;
+}
+
+.animals__item:hover {
+  border: 2px solid #609fff;
+}
+
+.animals__item:nth-child(4) {
+  border: 2px solid #609fff;
+}
+
+/*Animals on map*/
+.animal {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.animal:first-child {
+ left: 251px;
+  top: 11px;
+}
+
+.animal:nth-child(2) {
+  top: 240px;
+  left: 583px;
+}
+
+.animal:nth-child(3) {
+  top: 53px;
+  left: 1269px;
+}
+
+.animal--mg-left {
+  margin-left: 15px;;
+}
+
+.animal--mg-right {
+  margin-right: 15px;
+}
+
+.animal__map-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 96px;
+  height: 124px;
+}
+
+.animal__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 344px;
+  height: 516px;
+  padding: 0 0 40px;
+  overflow: hidden;
+  visibility: hidden;
+  background-color: #fff;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+#gorilla {
+  visibility: visible;
+}
+
+.animal:nth-child(2) .animal__market-box {
+  transform: scale(1.17);
+}
+
+.animals__marker-shape {
+  filter: drop-shadow(.5px 1px .5px rgba(0, 0, 0, .7));
+}
+
+.animal__block--first-order {
+  order: -1;
+}
+
+.animal__block-title {
+  margin: 20px 0;
+}
+
+.animal__block-text {
+  max-width: 264px;
+  margin: 0 0 52px;
+  text-align: center;
+}
+
+.animal__block-watch {
+  display: flex;
+  align-items: center;
+}
+
+.animal__watch-text {
+  margin: 0 10px 0 0;
+}
+
+.subtitle {
+  max-width: 696px;
+  font: 500 36px 'Merriweather', sans-serif;
+  color: #080029;
+}
+
+.text {
+  color: #747474;
+  line-height: 1.54;
+}
+
+.text--blue {
+  color: #3888ff;
+}
+
+/*Animation while hover on animal*/
+.animals__map-marker:hover .animals__marker-shape {
+  stroke-width: 2px;
+  stroke: #609fff;
+}
+
+.animal__market-box:hover{
+  transform: scale(1.17);
+}
+
+.animal__map-icon:hover + .animal__block {
+  z-index: 5;
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}

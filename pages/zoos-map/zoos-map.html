@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <title>Zoo Online Landing</title>
+
+   <!-- Include Google Fonts -->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@400;500&family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+   <!-- Include stylesheet -->
+   <link rel="stylesheet" href="../../style/normalize.css">
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <!--Header-->
+   <header class="header">
+      <div class="header__container centered-content-container">
+         <nav class="header__nav">
+            <a class="header__nav-item" href="../landing/index.html">About</a>
+            <a class="header__nav-item" href="../zoos-map/zoos-map.html">Map</a>
+            <a class="header__nav-item" href="../zoos/panda.html">Zoos</a>
+            <a class="header__nav-item" href="../404/404.html">Contact us</a>
+            <a class="header__nav-item" href="https://www.figma.com/file/74wXlorl9mZQP0uhqDg83j/Online-Zoo" target="_blank">Design</a>
+         </nav>
+
+         <a class="header__profile-icon" href="#">
+            <img src="../../assets/icons/landing/profile.svg" alt="profile-icon">
+         </a>
+      </div>
+   </header>
+
+   <!--Main content-->
+   <main class="sticky-container centered-content-container">
+      <!-- Fixed Sidebar -->
+      <div class="sticky-container__sidebar">
+         <aside class="sidebar">
+            <a class="sidebar__logo" href="../landing/index.html">
+               <img src="../../assets/icons/landing/logo.svg" alt="logo">
+            </a>
+
+            <a class="sidebar__arrow sidebar__arrow--border-top" href="">
+               <img src="../../assets/icons/zoos-map/arrow.svg" alt="arrow-icon">
+            </a>
+
+            <div class="sidebar__animals animals">
+               <a class="animals__item" href="#">
+                  <img src="../../assets/icons/zoos-map/sidebar_panda.svg" alt="panda-icon">
+               </a>
+
+               <a class="animals__item" href="#">
+                  <img src="../../assets/icons/zoos-map/sidebar_alligator.svg" alt="alligator-icon">
+               </a>
+
+               <a class="animals__item" href="#">
+                  <img src="../../assets/icons/zoos-map/sidebar_eagle.svg" alt="eagle-icon">
+               </a>
+
+               <a class="animals__item" href="#">
+                  <img src="../../assets/icons/zoos-map/sidebar_gorilla.svg" alt="gorilla icon">
+               </a>
+
+               <a class="animals__item" href="#">
+                  <img src="../../assets/icons/zoos-map/sidebar_next-animal.svg" alt="instagram-icon">
+               </a>
+            </div>
+
+            <a class="sidebar__arrow sidebar__arrow--rotate" href="">
+               <img src="../../assets/icons/zoos-map/arrow.svg" alt="arrow-icon">
+            </a>
+         </aside>
+      </div>
+
+         <div>
+            <div class="sticky-container__animal animal">
+               <a href="#" class="animal__map-icon animal__map-icon--order-first animal--mg-right">
+                  <object class="animal__market-box" type="image/svg+xml" data="../../assets/icons/zoos-map/map_alligator-marker.svg" width="82" height="106">
+                     Your browser does not support SVG
+                  </object>
+               </a>
+
+               <div id="eagle" class="animal__block">
+                  <img src="../../assets/images/landing/zoogeography_eagle.jpg" alt="eagle">
+                  <h3 class="animal__block-title subtitle">Eagle</h3>
+
+                  <p class="animal__block-text text">
+                     The broadcast is from an island near Los Angeles. Watch their real life.
+                  </p>
+
+                  <a href="" class="animal__block-watch">
+                     <p class="animal__watch-text text text--blue">Watch now</p>
+                     <img class="animal__block-arrow" src="../../assets/icons/landing/arrow-blue.svg" alt="arrow">
+                  </a>
+               </div>
+            </div>
+
+            <div class="sticky-container__animal animal">
+               <a href="#" class="animal__map-icon animal--mg-left">
+                  <object class="animal__market-box" type="image/svg+xml" data="../../assets/icons/zoos-map/map_gorilla-marker.svg" width="82" height="106">
+                     Your browser does not support SVG
+                  </object>
+               </a>
+
+               <div id="gorilla" class="animal__block animal__block--first-order">
+                  <img src="../../assets/images/zoos-map/gorilla_img.jpg" alt="eagle">
+                  <h3 class="animal__block-title subtitle">Gorilla</h3>
+
+                  <p class="animal__block-text text">
+                     The broadcast comes from the Democratic Republic of the Congo in a forest area. Watch their life and life together
+                  </p>
+
+                  <a href="" class="animal__block-watch">
+                     <p class="animal__watch-text text text--blue">Watch now</p>
+                     <img class="animal__block-arrow" src="../../assets/icons/landing/arrow-blue.svg" alt="arrow">
+                  </a>
+               </div>
+            </div>
+
+            <div class="sticky-container__animal animal">
+               <a id="panda" href="#" class="animal__map-icon animal--mg-left">
+                  <object class="animal__market-box" type="image/svg+xml" data="../../assets/icons/zoos-map/map_panda-marker.svg" width="82" height="106">
+                     Your browser does not support SVG
+                  </object>
+               </a>
+
+               <div id="eagle" class="animal__block animal__block--first-order">
+                  <img src="../../assets/images/landing/zoogeography_eagle.jpg" alt="eagle">
+                  <h3 class="animal__block-title subtitle">Eagle</h3>
+
+                  <p class="animal__block-text text">
+                     The broadcast is from an island near Los Angeles. Watch their real life.
+                  </p>
+
+                  <a href="" class="animal__block-watch">
+                     <p class="animal__watch-text text text--blue">Watch now</p>
+                     <img class="animal__block-arrow" src="../../assets/icons/landing/arrow-blue.svg" alt="arrow">
+                  </a>
+               </div>
+            </div>
+         </div>
+   </main>
+</body>
+</html>
